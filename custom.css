@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    font-family: 'roboto',sans-serif;
+
+}
+body{
+    z-index: -1;
+    height: 1000px;
+}
+.c-nav{
+    
+    background-color: white;
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
+nav a:hover{
+    color: #0887db;
+} 
+.c-logo{
+    text-align: center;
+    font-size: 30px;
+    color: #354046; 
+
+    
+}
+.c-logo:hover{
+    color: #0887db;
+}
+.c-color{
+    background-color: white;
+
+}
+.nav-div{
+    margin-left: 385px;
+    
+}
+.navbar-nav .nav-link{
+    color: #354046;
+    font-size: 20px;
+}
+.navbar-nav .nav-link:hover{
+    color: #0887db;
+}
+.fa-bars{
+    font-size: 30px;
+}
+.p-div h1{
+font-size: 50px;
+text-align: center;
+}
+.p-div h2{
+  text-align: center;
+}
+.c-nav{
+    display: flex;
+}
+.c-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-home a{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media (max-width:700px){
+    
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-collapse ul li {
+    padding: 5px;
+}
+
+
+.c-home .btn{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+.about{
+    width: 100%;
+    background-color: rgb(243, 241, 241);
+}
+.about .c-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facility{
+    border-bottom: 2px solid #0887db;
+}
+.review{
+background: url(pag1.png);    
+background-repeat: no-repeat;
+background-position: center;
+background-blend-mode: darken;
+padding: 15px;
+}
+
+.counter span{
+    font-size: 45px;
+    color: #0887db;   
+}
+.counter div{
+   padding: 20px 80px;
+}
+.contact{
+    background: url(download.jpg) no-repeat center;
+}
